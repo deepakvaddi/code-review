@@ -14,6 +14,14 @@
 	</properties>
 
 	<dependencies>
+                <project>
+                         ...
+                         <build>
+                         <defaultGoal>install</defaultGoal>
+                         ...
+                         </build>
+                         ...
+                         </project>
 
 		<dependency>
 			<groupId>org.springframework</groupId>
